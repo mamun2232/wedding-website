@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convention Center</title>
+    <!-- font awasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&family=Roboto+Slab&family=Work+Sans:ital,wght@0,200;0,300;0,500;0,600;0,800;0,900;1,200;1,500;1,600;1,800&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head>
+        <!-- navbar section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">Lovely Convention Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Subsribe</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- picture slider section -->
+        <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption sm-device  md-block mb-3">
+                        <h2>The perfect venue for your next event</h2>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a href="https://convention.thearc.org/" target="_blank"
+                            class="btn btn-primary booking-btn">Book
+                            Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-8jpg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption sm-device  md-block mb-3">
+                        <h2>Our Dream And Love</h2>
+                        <p>Welcome and open yourself to you truest love this year With us..</p>
+                        <a href="https://convention.thearc.org/" target="_blank"
+                            class="btn btn-primary booking-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-6.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption sm-device  md-block mb-3">
+                        <h2>Lets Celebrate Your Love</h2>
+                        <p>There is only one happiness in this life, to love and be loved.</p>
+                        <a href="https://convention.thearc.org/" target="_blank"
+                            class="btn btn-primary booking-btn">Book Now</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </head>
+    <main>
+        <!----------------------- pakeg section ------------------>
+
+
+        <section class="container mt-5 ">
+
+            <div class="packeg-section">
+                <h1 class="text-center pb-5 my-5 text-uppercase">Our Packages</h1>
+                <div class="row g-4 ps-3 mt-4">
+                    <div class="col-lg-3 my-5">
+                        <h1>$300</h1>
+                        <h2>Buisness Fair</h2>
+                        <p class="lead">For most businesses event
+                            like book fair, craft fair.</p>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">limited space access</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">event support</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Decoration design</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Per day bill</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Secuirty facility </p>
+
+                        </div>
+                        <div class="ms-3">
+                            <a href="#" class="btn my-button">Chose plan</a>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-3 my-5">
+                        <h1>$500</h1>
+                        <h2>wedding basic</h2>
+                        <p class="lead">For weddings with basic plan
+                            and limited item.</p>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Full space access</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Food arrangement</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">mangement support</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Decoration design</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Billed as shift</p>
+
+                        </div>
+                        <div class="ms-3">
+                            <a href="#" class="btn my-button">Chose plan</a>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 my-5">
+                        <div class="packegs border shadow p-4 mt-4">
+
+                            <h1>$800</h1>
+                            <h2>Wedding plus</h2>
+                            <p class="lead">For most weddings with premium plans</p>
+                            <div class="d-flex">
+                                <i class="far fa-check-circle  mt-1 me-2 text-light "></i>
+                                <p class="lead">Full space access</p>
+
+                            </div>
+                            <div class="d-flex">
+                                <i class="far fa-check-circle  mt-1 me-2 text-light "></i>
+                                <p class="lead">Dedicated team</p>
+
+                            </div>
+                            <div class="d-flex">
+                                <i class="far fa-check-circle  mt-1 me-2 text-light "></i>
+                                <p class="lead">premium Decoration</p>
+
+                            </div>
+                            <div class="d-flex">
+                                <i class="far fa-check-circle  mt-1 me-2 text-light "></i>
+                                <p class="lead">pay as plan</p>
+
+                            </div>
+                            <div class="d-flex">
+                                <i class="far fa-check-circle  mt-1 me-2 text-light "></i>
+                                <p class="lead">Buffet food</p>
+
+                            </div>
+                            <div class="ms-4">
+                                <a href="#" class="btn my-button">Chose plan</a>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-3 my-5">
+                        <h1>$1200</h1>
+                        <h2>Corporate event</h2>
+                        <p class="lead">For most corporate business
+                            events</p>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Full space access</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Dedicated team</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">Buffet food</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">premium Decoration</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="far fa-check-circle  mt-1 me-2 text-primary "></i>
+                            <p class="lead">pay as plan</p>
+
+                        </div>
+                        <div class="ms-3">
+                            <a href="#" class="btn my-button">Chose plan</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------- close packege section ------------------->
+
+        <!--------------------- open Quction SEction ------------->
+        <section class="container mt-5">
+            <div class="quation">
+                <h1 class="my-5 text-center text-uppercase">Frequently Asked Questions</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="Quction">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            <p class="Quation-title"> What’s the difference between event design and
+                                                event
+                                                planning?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <p class="lead">Event design and event planning work hand in hand to deliver
+                                                a
+                                                successful
+                                                event.Events by Knight offer tailor made events. This means we
+                                                incorporate
+                                                both event design and event planning to create that perfect event.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            <p class="Quation-title">Planner of Your Perfect Wedding?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+
+                                            <p class="lead">
+                                                It is a long established fact that a reader will be distracted by the
+                                                readable content of a page when looking at its layout. The point of
+                                                using Lorem Ipsum is that it has a more-or-less normal distribution of
+                                                letters, as opposed to using
+
+                                                Content here, content here', making it look like readable English. Many
+                                                desktop publishing packages and web page editors now use Lorem Ipsum as
+                                                their default model text.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            <p class="Quation-title">Why give us a booking?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <p class="lead">We are one of the best organization in bangladesh.We
+                                                organize more the 1
+                                                meliwon wedding every year. And our customers give us very good reviews.
+                                                that review inspires us.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            <p class="Quation-title">Our Engagement?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <p class="lead">I must explain to you how all this mistaken idea of denouing
+                                                pleasure and
+                                                praising pain was born and I will give you com acount of system,the
+                                                actual teach.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="images h-100 mt-2 d-flex justify-content-center align-items-center">
+                            <img src="images/people.png" class=" img-fluid" width="546px" height="364px" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------- close Quction section ---------------->
+
+        <!---------------- start Boons section -------------------->
+
+        <section class=" mt-5 ">
+
+            <div class="our-service container">
+                <div class="toast show align-items-center mb-5" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body">
+                            <p>Well you book our event?</p>
+                        </div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
+
+
+
+                <p class="mb-0 text-center lead">Our Service</p>
+                <h1 class="text-center mb-5">WHAT WE CAN DO</h1>
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <div class="service border rounded p-3 text-center bg-light shadow">
+                            <img src="icons/phorograpy.png" alt="">
+                            <h3 class="mb-4">Photography</h3>
+                            <p class="text-muted">the wedding ceremony is the heart of the wedding day. The dress, the
+                                flowers, the food are all icing on the cake, but the ceremony is where two people.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service border h-100 rounded p-3 text-center bg-light shadow">
+                            <img src="icons/daing.png" alt="">
+                            <h3 class="mb-4">Fine Dining</h3>
+                            <p class="text-muted">Our Enverment is very Good.Besecaly Fine dining in our enverment
+                                place. I hope you wull be come in our Clube and injoy it. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service h-100 border rounded p-3 text-center bg-light shadow">
+                            <img src="icons/wedding.png" alt="">
+                            <h3 class="mb-4">Wedding Registory</h3>
+                            <p class="text-muted">We Have good marriage registration system here. you dont have to read
+                                and jam. becouse we have so many skills.So we welcome you</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service border rounded h-100 p-3 text-center bg-light shadow">
+                            <img src="icons/list.png" width="50px" height="40px" alt="">
+                            <h3 class="mb-4">Guest List</h3>
+                            <p class="text-muted">We always keeep our guests in mind. Our goal is to keep guests happy
+                                with my besat service. we think that our guest means our friend.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service border h-100 rounded p-3 text-center bg-light shadow">
+                            <img src="icons/cake2.png" width="50px" height="45px alt="">
+                            <h3 class=" mb-4">Perfect Cake</h3>
+                            <p class="text-muted">We have many different types pf cakes here. Wshich we share with our
+                                customer.And they like our cakes.As a result we are both happpy. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service border rounded h-100 p-3 text-center bg-light shadow">
+                            <img src="icons/ring.png" alt="">
+                            <h3 class="mb-4">Wedding Ceremony</h3>
+                            <p class="text-muted">We organize wedding ceremonies in a very beautiful way. We have many
+                                packages here. Each packages contains a wonderful wedding arrangment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <!----------------------- close boones section ------------------->
+
+    <!---------------------- footer section ----------------------------->
+
+    <footer class="bg-dark p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="text-white mt-5">© 2022 bike. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center ">
+                    <div class="">
+                        <h3 class="text-white">Get the App</h3>
+                        <div class="my-3">
+                            <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12" target="_blank">
+                                <img src="icons/Group.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_IN&gl=US"
+                                target="_blank">
+                                <img src="icons/Google Play Badge.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!------------------- bootstrap js Cdn --------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
